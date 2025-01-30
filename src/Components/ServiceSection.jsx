@@ -7,10 +7,10 @@ const services = [
   
   const ServicesSection = () => {
     return (
-      <section className="bg-[#005f7a] bg-opacity-40 py-6 px-4 flex flex-wrap justify-center gap-8 text-center shadow-md rounded-lg">
+      <section className="bg-gradient-to-r from-blue-50 to-blue-200 py-6 px-4 flex flex-wrap justify-center gap-8 text-center shadow-md rounded-lg">
         {services.map((service, index) => (
           <div key={index}>
-            <i className={`${service.icon} text-green-600 text-2xl`}></i>
+            <i className={`${service.icon} text-blue-600 text-2xl`}></i>
             <h2 className="text-lg font-semibold">{service.title}</h2>
             <p className="text-sm">{service.description}</p>
           </div>

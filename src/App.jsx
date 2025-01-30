@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-[#007ea7] bg-gradient-to-br from-[#007ea7] to-[#80ced7] overflow-auto ">
+      <div className="min-h-screen overflow-auto ">
         <Navbar />
         <HeroSection />
         <ServicesSection />

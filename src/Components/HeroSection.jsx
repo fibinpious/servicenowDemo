@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const HeroSection = () => {
     return (
-      <header className="bg-transperant text-white text-center py-16 shadow-md">
+      <header className="bg-gradient-to-r from-blue-200 to-blue-400 text-white text-center py-16 shadow-md">
         <h1 className="text-3xl font-semibold text-grey-100">How can we help?</h1>
         <div className="mt-4 flex justify-center">
           <input 
