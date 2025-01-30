@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar'
-import HeroSection from './Components/Herosection'
+import HeroSection from './Components/HeroSection'
 import ServicesSection from './Components/ServiceSection'
 import MainContent from './Components/MainContent'
 
