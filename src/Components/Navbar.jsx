@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const Navbar = () => {
@@ -28,7 +28,6 @@ const Navbar = () => {
           )}
 
         </div>
-
         <div className="w-8 h-8 bg-gray-700 rounded-full"></div>
       </div>
     </nav>
